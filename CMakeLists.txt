@@ -1,9 +1,7 @@
 # CMake 3.16 is needed for Apple clang
-cmake_minimum_required(VERSION 3.15)
-project(gasdynamics)
+cmake_minimum_required(VERSION 3.16)
+project(stringcal)
 
-option(USE_OPENMP "Enable OpenMP" ON)
-option(USE_MPI "Enable MPI" ON)
 
 # Set language property 
 set(CMAKE_CXX_STANDARD 17)

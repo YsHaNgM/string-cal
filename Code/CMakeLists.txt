@@ -1,3 +1,3 @@
-add_executable(gas input.cpp)
+add_executable(cal input.cpp)
 
-target_link_libraries(gas ${ALL_THIRD_PARTY_LIBRARIES})
+target_link_libraries(cal ${ALL_THIRD_PARTY_LIBRARIES})
