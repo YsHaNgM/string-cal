@@ -23,5 +23,6 @@ message("CMAKE_BINARY_DIR=${CMAKE_BINARY_DIR}")
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR}/bin)
 
 include_directories(${CMAKE_SOURCE_DIR})
+include_directories(${CMAKE_SOURCE_DIR}/Code/Lib)
 include_directories(${CMAKE_BINARY_DIR})
 add_subdirectory(Code)
