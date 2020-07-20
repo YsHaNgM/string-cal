@@ -1,6 +1,7 @@
 #ifndef shuntingYard_h
 #define shuntingYard_h
 
+#include <coroutine>
 #include <stack>
 #include <string>
 #include <variant>
