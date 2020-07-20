@@ -1,17 +1,14 @@
+#include "shuntingYard.h"
 #include <iostream>
 #include <sstream>
 #include <stack>
 #include <string>
 using namespace std;
 
-bool isOperator(char input)
-{
-    return input == '+' || input == '-' || input == '*' || input == '/' || input == '^';
-}
-
 int main()
 {
     string line("2+2*3-5");
+    inputParser(line);
     stack<double> nums;
     stack<char> ops;
     while (!line.empty())

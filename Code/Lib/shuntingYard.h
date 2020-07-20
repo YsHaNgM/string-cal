@@ -23,6 +23,6 @@ bool isOperator(char input)
 
 std::variant<int, char> inputParser(std::string &);
 
-int shuntingYard(std::string &, std::stack<double> &, std::stack<char> &);
+int shuntingYard(std::string &);
 
 #endif
